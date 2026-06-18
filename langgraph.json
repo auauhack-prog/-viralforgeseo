@@ -6,7 +6,7 @@
   "platforms": ["facebook", "youtube", "twitter", "linkedin", "instagram", "tiktok"],
   "entry_points": {
     "cli": "python graph.py",
-    "skill": "codex skill add auauhack-prog/viralforge",
-    "claude": "npx skills add auauhack-prog/viralforge"
+    "skill": "codex skill add auauhack-prog/-viralforgeseo",
+    "claude": "npx skills add auauhack-prog/-viralforgeseo"
   }
 }
