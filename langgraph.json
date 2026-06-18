@@ -1,0 +1,12 @@
+{
+  "name": "ViralForge",
+  "version": "1.0.0",
+  "description": "AI视频生成+社交媒体自动发布",
+  "models": ["comfyui", "stable-video-diffusion", "deepseek-v4-pro"],
+  "platforms": ["facebook", "youtube", "twitter", "linkedin", "instagram", "tiktok"],
+  "entry_points": {
+    "cli": "python graph.py",
+    "skill": "codex skill add auauhack-prog/viralforge",
+    "claude": "npx skills add auauhack-prog/viralforge"
+  }
+}

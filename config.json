@@ -1,0 +1,49 @@
+{
+  "name": "ViralForge",
+  "version": "1.0.0",
+  "description": "AI视频生成+社交媒体自动发布 — ComfyUI/SVD本地模型 + DeepSeek V4 Pro接入",
+  "author": "auauhack-prog",
+  "demo_url": "https://skill.600.im",
+  "features": {
+    "video_generation": {
+      "engine": "comfyui",
+      "local_model": "stable-video-diffusion",
+      "remote_model": "deepseek-v4-pro",
+      "text_to_video": true,
+      "image_to_video": true,
+      "max_duration_seconds": 60,
+      "resolutions": ["1080p", "720p", "480p"]
+    },
+    "social_publishing": {
+      "platforms": {
+        "facebook": {"enabled": true, "max_daily": 10},
+        "youtube": {"enabled": true, "max_daily": 5},
+        "twitter": {"enabled": true, "max_daily": 15},
+        "linkedin": {"enabled": true, "max_daily": 8},
+        "instagram": {"enabled": true, "max_daily": 10},
+        "tiktok": {"enabled": true, "max_daily": 8}
+      },
+      "batch_mode": true,
+      "schedule_enabled": true,
+      "seo_optimization": true
+    },
+    "learning": {
+      "performance_analytics": true,
+      "audience_insights": true,
+      "auto_optimization": true,
+      "trend_detection": true
+    }
+  },
+  "modules": [
+    "文本转视频生成",
+    "图片转视频生成",
+    "ComfyUI本地模型引擎",
+    "DeepSeek V4 Pro远程接入",
+    "批量视频处理",
+    "社交媒体API分发",
+    "SEO标签自动生成",
+    "发布排期管理",
+    "数据分析与学习优化",
+    "多平台同步管理"
+  ]
+}
